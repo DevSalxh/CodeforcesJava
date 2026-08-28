@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class A479_Expression {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();

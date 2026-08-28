@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.HashSet;
  
-public class Main {
+public class B368_Sereja_and_Suffixes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
