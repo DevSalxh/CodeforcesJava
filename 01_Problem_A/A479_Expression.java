@@ -1,3 +1,39 @@
+/*
+ * ============================================================
+ * Codeforces: A - Expression
+ * By: Zen1x_
+ * ============================================================
+ *
+ * Problem:
+ * Given three integers a, b, and c, find the maximum value
+ * obtainable using the allowed arithmetic expressions.
+ *
+ * Input:
+ * Three integers: a, b, c.
+ *
+ * Output:
+ * The maximum possible value.
+ *
+ * Idea:
+ * Because multiplication can produce a larger result than
+ * addition, we need to evaluate all relevant expressions and
+ * choose the maximum.
+ *
+ * Algorithm:
+ * Calculate all valid expressions:
+ *
+ * a + b + c
+ * a * b * c
+ * (a + b) * c
+ * a * (b + c)
+ *
+ * Then take the maximum.
+ *
+ * Time Complexity: O(1)
+ * Space Complexity: O(1)
+ * ============================================================
+ */
+
 import java.util.Scanner;
 
 public class A479_Expression {

@@ -1,3 +1,35 @@
+/*
+ * ============================================================
+ * Codeforces: A - Twins
+ * By: Zen1x_
+ * ============================================================
+ *
+ * Problem:
+ * Given the values of coins, choose the minimum number of coins
+ * such that their sum is strictly greater than the sum of all
+ * remaining coins.
+ *
+ * Input:
+ * n followed by n coin values.
+ *
+ * Output:
+ * Minimum number of coins required.
+ *
+ * Idea:
+ * To reach the required sum using the fewest coins, take the
+ * largest coins first.
+ *
+ * Algorithm:
+ * 1. Calculate the total sum.
+ * 2. Sort the coins in descending order.
+ * 3. Keep taking the largest coins until our sum becomes
+ *    greater than the remaining sum.
+ *
+ * Time Complexity: O(n log n)
+ * Space Complexity: O(n)
+ * ============================================================
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 

@@ -1,3 +1,20 @@
+/*
+ * ============================================================
+ * Algorithm: Binary Search
+ * By: Zen1x_
+ * ============================================================
+ *
+ * Idea:
+ * Search for a target in a sorted array by repeatedly
+ * dividing the search space in half.
+ *
+ * Time Complexity: O(log n)
+ * Space Complexity: O(1)
+ *
+ * Important:
+ * Binary Search requires the array to be sorted!
+ * ============================================================
+ */
 import java.util.Scanner;
 
 public class BinarySearch {

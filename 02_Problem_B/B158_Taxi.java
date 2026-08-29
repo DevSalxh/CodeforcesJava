@@ -1,3 +1,42 @@
+/*
+ * ============================================================
+ * Codeforces: B - Taxi
+ * By: Zen1x_
+ * ============================================================
+ *
+ * Problem:
+ * Groups of 1, 2, 3, or 4 children need taxis.
+ * Each taxi can carry at most 4 children.
+ *
+ * Find the minimum number of taxis required.
+ *
+ * Input:
+ * n followed by n group sizes.
+ *
+ * Output:
+ * Minimum number of taxis.
+ *
+ * Idea:
+ * Process the largest groups first and optimally combine
+ * smaller groups with them.
+ *
+ * Important combinations:
+ *
+ * 4                -> one taxi
+ * 3 + 1            -> one taxi
+ * 2 + 2            -> one taxi
+ * 2 + 1 + 1        -> one taxi
+ *
+ * Remaining groups of 1 need to be grouped four per taxi.
+ *
+ * Algorithm:
+ * Count groups of each size and greedily combine them.
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ * ============================================================
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.HashSet;
